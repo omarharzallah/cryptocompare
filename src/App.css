@@ -1,0 +1,97 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  color: #444;
+  margin-bottom: 30px;
+}
+
+.inputs {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.coin-select {
+  width: 65%;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  color: #444;
+  padding: 0 20px;
+}
+
+.compare-button {
+  width: 20%;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #444;
+  color: #f1f1f1;
+}
+span{
+
+  background-color: lightgoldenrodyellow;
+}
+.compare-button:hover {
+  transform: scale(1.1);
+  background-color: rgba(0, 0, 255, 0.7);
+  
+}
+/* Add this CSS to your stylesheet */
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  font-style: italic;
+  color: #888;
+}
+
+
+.result {
+ 
+  margin-top: 20px;
+}
+
+.result-text {
+  font-size: 16px;
+  color: #444;
+  text-align: center;
+  border: 1px solid grey;
+  border-radius: 4px;
+  padding: 0.5em;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.result-text1 {
+  font-size: 25px;
+  color: #444;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+  border: 1px solid grey;
+  border-radius: 4px;
+  padding: 0.5em;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  
+}
+
+.result-text1:hover {
+  transform: scale(1.1);
+  border-color: rgba(0, 0, 255, 0.7);
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.Price{color:green;
+  font-weight:bold
+ }
+
+img{
+  margin-top: 2px;
+}
+.pas{color:red;
+  font-weight:bold}
